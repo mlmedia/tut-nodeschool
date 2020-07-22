@@ -1,4 +1,4 @@
-### GENERIC GITIGNORE
+### NODEJS GITIGNORE
 
 ### Compiled source
 *.com
@@ -43,6 +43,7 @@ __MACOSX
 .settings
 .classpath
 .vagrant
+.idea
 
 ### Package / dependency managers
 node_modules
@@ -50,3 +51,21 @@ bower_components
 
 ### Config
 .env
+
+### Media (use rsync for files instead)
+**/media/*
+
+### Node-specific
+*.csv
+*.dat
+*.iml
+*.out
+*.pid
+*.seed
+*.sublime-*
+*.swo
+*.swp
+*.tgz
+*.xml
+.strong-pm
+coverage
